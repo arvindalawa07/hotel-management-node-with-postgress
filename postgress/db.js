@@ -29,7 +29,7 @@ const dbConnection = async () => {
     await sequelize.sync({ alter: true });
     console.log('✅ Database connected & synced');
   } catch (error) {
-    console.error('❌ Database connection error:', error);
+    console.error('❌ Database connection error :', error);
   }
 };
 
