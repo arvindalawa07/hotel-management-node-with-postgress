@@ -33,4 +33,4 @@ const dbConnection = async () => {
   }
 };
 
-module.exports = { sequelize, Customer, dbConnection,User };
+module.exports = { sequelize, Customer, dbConnection, User };
